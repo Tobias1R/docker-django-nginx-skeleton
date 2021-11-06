@@ -10,7 +10,7 @@ include(
     'base/apps.py',
     'base/rest.py',
     'base/middleware.py',
-
+    
     # Load all other settings
     'base/*.py',
 

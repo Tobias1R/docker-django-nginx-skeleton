@@ -5,3 +5,7 @@
 > docker-compose build
 > docker-compose create
 
+# Connect network 
+> docker network connect bridge CONTAINER_NAME_default_1
+> docker network disconnect CONTAINER_NAME_default CONTAINER_NAME_default_1
+
