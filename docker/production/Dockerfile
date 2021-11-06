@@ -1,8 +1,7 @@
-FROM python:3.9.4
+FROM python:3.10.0
 ## Install dependencies
 RUN apt-get update \
-    # System stuff
-    #&& apt-get --no-install-recommends install -y python3 python3-pip python3-dev \
+    # System stuff    
     && apt-get --no-install-recommends install -y ca-certificates nginx gettext-base \ 
     # PIP build dependencies
     gcc libssl-dev \   
