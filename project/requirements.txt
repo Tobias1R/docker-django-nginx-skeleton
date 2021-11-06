@@ -1,0 +1,38 @@
+# uwsgi
+uwsgi
+# Latest django
+Django==3.2.9
+django_extensions
+
+# swagger dep
+pyyaml
+
+# django rest
+djangorestframework==3.12.4
+django-rest-swagger==2.2.0  
+Markdown==3.3.4
+django-filter==21.1
+
+# @phpdude libs
+django-macros-url
+django-template-names
+
+# cache
+python-memcached
+django-clear-cache
+
+# Database drivers. Uncomment anyone is used.
+#MySQL-python
+#mysqlclient
+#psycopg2
+psycopg2-binary==2.9.1
+
+# Project custom apps
+django-split-settings
+
+# Testing
+mock==4.0.3
+factory-boy==3.2.1
+django-nose==1.4.7
+nose-progressive==1.5.2
+coverage==6.1.1

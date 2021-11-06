@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  
+  # manage:
+  #   build:
+  #     context: .
+  #     dockerfile: docker/development/Dockerfile.web
+  #   command: python3 manage.py runserver 0.0.0.0:7777
+  #   volumes:
+  #     - ./:/code/    
+  
+  default:
+    build:
+      context: .
+      dockerfile: docker/production/Dockerfile
+    command: sh docker/production/web/service.web.sh    
+    volumes:
+      - ./:/code/    
+    
